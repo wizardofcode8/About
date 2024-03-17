@@ -4,9 +4,12 @@
 
 .product-container {
     transition: filter 0.3s ease-in-out;
-  }
+    transition: scale 0.3s ease-in-out;
+}
+
   
   .product-container:not(:hover) {
     filter: blur(5px);
+    scale: 0.9;
   }
   
